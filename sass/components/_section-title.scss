@@ -1,0 +1,7 @@
+.section-title {
+	margin-bottom: 50px;
+
+	@extend %section-title-styles;
+
+	color: $main-title-color;
+}
