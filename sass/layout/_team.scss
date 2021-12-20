@@ -1,9 +1,5 @@
 .team {
 	display: flex;
-
-	&__section {
-		background-color: #f5f4fa;
-	}
 }
 
 .team__item {
@@ -21,7 +17,7 @@
 	padding-bottom: 30px;
 }
 
-.team__name {
+.team__title {
 	margin-bottom: 10px;
 
 	@extend %team-text-styles;
@@ -30,7 +26,7 @@
 	color: $main-title-color;
 }
 
-.team__position {
+.team__text {
 	margin-bottom: 16px;
 
 	@extend %team-text-styles;

@@ -3,11 +3,11 @@
 
 	color: $accent-color;
 
-	&_dark {
+	&--dark {
 		color: #000000;
 	}
 
-	&_light {
+	&--light {
 		color: $secondary-title-color;
 	}
 }
